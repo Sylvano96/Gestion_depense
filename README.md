@@ -60,7 +60,7 @@ cd front
 
 ## 1. Cloner le projet
 ```bash
-git clone <repo-url>](https://github.com/Sylvano96/gestion_depense_back.git
+git clone https://github.com/Sylvano96/gestion_depense_back.git
 cd back
 
 cd frontend
