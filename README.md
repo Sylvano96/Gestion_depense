@@ -95,7 +95,7 @@ Application web complète de gestion des dépenses personnelles avec authentific
 
 ```bash
 git clone https://github.com/Sylvano96/gestion_depense_front.git
-cd gestion_depense_front
+cd front
 ```
 
 #### 2. Installer les dépendances
@@ -290,7 +290,7 @@ Une fois les services démarrés :
 
 ```bash
 git clone https://github.com/Sylvano96/gestion_depense_back.git
-cd gestion_depense_back
+cd back
 ```
 
 #### 2. Installer les dépendances
