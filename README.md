@@ -21,8 +21,8 @@
 # 📦 Installation
 
 ## 1. Cloner le repo
-bash
 git clone https://github.com/Sylvano96/gestion_depense_front.git
+---
 cd front
 
 # 🛡️ Backend — API Auth & Gestion (NestJS + Prisma)
@@ -52,6 +52,7 @@ cd front
 # 🔧 Installation
 
 ## 1. Cloner le projet
-bash
+
 git clone https://github.com/Sylvano96/gestion_depense_back.git
+---
 cd back
