@@ -1,12 +1,5 @@
 # Gestion_depense en Next.js et Nest.js
 
----
-
----
-
-# 🌐 README — Frontend (Next + Tailwind + Axios)
-
-```md
 # 🖥️ Frontend — NextJs
 
 ## 🚀 Fonctionnalités
@@ -28,7 +21,7 @@
 # 📦 Installation
 
 ## 1. Cloner le repo
-```bash
+bash
 git clone https://github.com/Sylvano96/gestion_depense_front.git
 cd front
 
@@ -59,6 +52,6 @@ cd front
 # 🔧 Installation
 
 ## 1. Cloner le projet
-```bash
+bash
 git clone https://github.com/Sylvano96/gestion_depense_back.git
 cd back
