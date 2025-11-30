@@ -62,5 +62,3 @@ cd front
 ```bash
 git clone https://github.com/Sylvano96/gestion_depense_back.git
 cd back
-
-cd frontend
