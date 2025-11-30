@@ -771,7 +771,6 @@ Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de
 ## 📞 Support
 
 Pour toute question ou issue :
-- Ouvrir une [GitHub Issue](https://github.com/Sylvano96/gestion_depense_front/)
 - Contactez : eliasvano78@gmail.com
 
 ---
