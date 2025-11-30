@@ -1,13 +1,13 @@
-# Gestion_depense
+# Gestion_depense en Next.js et Nest.js
 
 ---
 
 ---
 
-# 🌐 README — Frontend (React + Vite + Tailwind + Axios)
+# 🌐 README — Frontend (Next + Tailwind + Axios)
 
 ```md
-# 🖥️ Frontend — React + Vite
+# 🖥️ Frontend — NextJs
 
 ## 🚀 Fonctionnalités
 - Login / Logout
@@ -19,11 +19,9 @@
 ---
 
 ## 🛠️ Stack
-- React 18
-- Vite
+- Next 16
 - Tailwind CSS
 - Axios
-- React Router
 
 ---
 
@@ -31,7 +29,8 @@
 
 ## 1. Cloner le repo
 ```bash
-git clone <repo-url>](https://github.com/Sylvano96/gestion_depense_front.git
+git clone https://github.com/Sylvano96/gestion_depense_front.git
+cd front
 
 # 🛡️ Backend — API Auth & Gestion (NestJS + Prisma)
 
@@ -62,7 +61,6 @@ git clone <repo-url>](https://github.com/Sylvano96/gestion_depense_front.git
 ## 1. Cloner le projet
 ```bash
 git clone <repo-url>](https://github.com/Sylvano96/gestion_depense_back.git
-cd backend
+cd back
 
-git clone <repo-url>
 cd frontend
