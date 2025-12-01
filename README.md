@@ -9,20 +9,6 @@ Application web complète de gestion des dépenses personnelles avec authentific
 
 ---
 
-## 📋 Table des matières
-
-- [Architecture](#architecture)
-- [Frontend - Next.js](#-frontend--nextjs)
-- [Backend - NestJS](#-backend--nestjs)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Utilisation](#utilisation)
-- [API Endpoints](#api-endpoints)
-- [Structure du Projet](#structure-du-projet)
-- [Contribution](#contribution)
-
----
-
 ## 🏗️ Architecture
 
 ```
