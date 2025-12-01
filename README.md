@@ -125,24 +125,6 @@ npm run dev
 
 L'application sera disponible sur [http://localhost:3000](http://localhost:3000)
 
-### 📁 Structure du Frontend
-
-```
-src/
-├── app/
-│   ├── dashboard/
-│   │   ├── page.tsx              # Page principale
-│   │   └── components/
-│   │       ├── SettingsModal.tsx  # Paramètres
-│   │       └── ...
-│   ├── login/
-│   │   └── page.tsx              # Page de connexion
-│   ├── signup/
-│   │   └── page.tsx              # Page d'inscription
-│   └── services/
-│       └── auth.ts               # Service d'authentification
-├── middleware.ts                 # Middleware NextJS
-└── globals.css                   # Styles globaux
 ```
 
 ---
@@ -370,39 +352,6 @@ npm run start:dev
 
 L'API sera disponible sur [http://localhost:3001](http://localhost:3001)
 
-### 📁 Structure du Backend
-
-```
-gestion_depense_back/
-├── src/
-│   ├── auth/
-│   │   ├── auth.service.ts           # Logique authentification
-│   │   ├── auth.controller.ts        # Routes authentification
-│   │   ├── auth.module.ts            # Module NestJS
-│   ├── users/
-│   │   ├── user.service.ts
-│   │   ├── user.controller.ts
-│   │   ├── user.module.ts
-│   │   ├── entities/
-│   │   │   └── user.entity.ts
-│   ├── expenses/
-│   │   ├── expense.service.ts
-│   │   ├── expense.controller.ts
-│   │   ├── expense.module.ts
-│   ├── categories/
-│   │   ├── category.service.ts
-│   │   ├── category.controller.ts
-│   │   ├── category.module.ts
-│   ├── sendEmail/
-│   │   ├── send.service.ts           # Service email
-│   ├── prisma/
-│   │   └── schema.prisma             # Schéma BD
-│   ├── app.module.ts                 # Module principal
-│   └── main.ts                       # Point d'entrée
-├── docker-compose.yml                # Configuration Docker
-└── .env                              # Variables d'environnement
-```
-
 ---
 
 ## 🔧 Configuration Complète
@@ -410,7 +359,7 @@ gestion_depense_back/
 ### 1. Démarrer Docker Compose (Backend)
 
 ```bash
-cd gestion_depense_back
+cd back
 docker-compose up -d
 ```
 
@@ -488,14 +437,14 @@ Pour ajouter le serveur PostgreSQL dans pgAdmin :
 #### 1. Démarrer Docker Compose (Backend)
 
 ```bash
-cd gestion_depense_back
+cd back
 docker-compose up -d
 ```
 
 #### 2. Terminal 1 - Backend
 
 ```bash
-cd gestion_depense_back
+cd back
 npm install
 npm run start:dev
 ```
@@ -503,7 +452,7 @@ npm run start:dev
 #### 3. Terminal 2 - Frontend
 
 ```bash
-cd gestion_depense_front
+cd front
 npm install
 npm run dev
 ```
